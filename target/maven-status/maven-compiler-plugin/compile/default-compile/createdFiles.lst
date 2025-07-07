@@ -1,0 +1,4 @@
+com\example\fabnew\FabnewApplication.class
+com\example\fabnew\controller\AssetController$AssetCreationRequest.class
+com\example\fabnew\advice\GlobalExceptionHandler.class
+com\example\fabnew\controller\AssetController.class
