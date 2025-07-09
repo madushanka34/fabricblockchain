@@ -1,0 +1,13 @@
+ ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-java -ccl java
+
+ ./network.sh up createChannel -ca -s couchdb -d 5 -r 10 -i 2.5.12
+
+
+permision for coppy files ->
+sudo chmod u+r,go+r organizations/fabric-ca/ordererOrg/msp/keystore/*_sk
+sudo chmod u+r,go+r organizations/fabric-ca/org2/msp/keystore/*_sk
+sudo chmod u+r,go+r organizations/fabric-ca/org1/msp/keystore/*_sk
+
+
+
+
