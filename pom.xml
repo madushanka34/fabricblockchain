@@ -16,7 +16,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<protobuf.java.version>3.25.1</protobuf.java.version> <!-- Updated -->
-		<grpc.version>1.64.0</grpc.version>
+		<grpc.version>1.73.0</grpc.version>
 		<fabric-gateway-java.version>1.7.1</fabric-gateway-java.version> <!-- Or your current Fabric Gateway version -->
 		<protobuf.version>4.31.1</protobuf.version> <!-- ADD THIS LINE -->
 	</properties>
@@ -57,7 +57,7 @@
 		<dependency>
 			<groupId>io.grpc</groupId>
 			<artifactId>grpc-netty-shaded</artifactId>
-			<version>1.70.0</version> <!-- Use a version compatible with your gRPC and Fabric SDK -->
+			<version>1.73.0</version> <!-- Use a version compatible with your gRPC and Fabric SDK -->
 			<exclusions>
 				<exclusion>
 					<groupId>com.google.protobuf</groupId>
